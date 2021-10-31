@@ -1,0 +1,55 @@
+@charset "UTF-8";
+
+
+a {
+	color: black;
+	text-decoration: none;
+}
+
+a:hover {
+	color: blue;
+}
+
+.note-header-style{
+	width:40%;
+	padding-bottom: 10px;
+	margin-top: 30px;
+}
+.note-header-style>span{
+	display:inline-block;
+	border: 1px solid #666;
+	height: 30px;
+	padding: 5px;
+	line-height:30px;
+	vertical-align: middle;
+		
+}
+
+.note-table-style{
+	border-collapse: collapse;
+	width: 100%;
+	margin-bottom:10px;
+}
+
+.note-table-tr-style>th,
+.note-table-tr-style>td{
+	border: 1px solid black;
+}
+
+.note-table-tr-style>th{
+	height: 30px;
+	background-color: #c0c0c0;
+}
+
+.note-table-tr-style>td{
+	text-align: center;
+	vertical-align: middle;
+}
+
+
+
+
+
+
+
+

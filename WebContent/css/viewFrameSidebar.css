@@ -1,0 +1,143 @@
+@charset "utf-8";
+
+.sidebar {
+	margin-right: 20px;
+	box-sizing: border-box;
+}
+
+.firstSection-inner {
+	display: flex;
+	width: inherit;
+}
+
+.firstSection-inner>input {
+	border: 2px solid #666;
+	margin-right: 10px;
+	border-radius: 20%;
+	box-sizing: border-box;
+	width: 30%;
+}
+
+.firstSection-inner-profileInfo {
+	padding: 5px 0;
+	box-sizing: border-box;
+	width: 70%;
+}
+
+.firstSection-inner-profileInfo>div:first-child {
+	display: flex;
+	justify-content: space-around;
+	width: 100%;
+	margin-bottom: 5px;
+}
+
+.firstSection-inner-profileInfo>div:first-child a {
+	width: 50px;
+}
+
+.firstSection-inner-profileInfo>div:first-child a:first-child {
+	padding-right: 7px;
+	border-right: 1px solid #000;
+}
+
+/* 관리자 등급이 아닐시 */
+/* .firstSection-inner-profileInfo> div:first-child a:last-child{
+	pointer-events: none;
+	cursor: default;
+} */
+.firstSection-inner-profileInfo>div:last-child {
+	display: flex;
+	flex-direction: column;
+}
+
+.span-right {
+	text-align: right;
+}
+
+.span-block {
+	display: block;
+}
+
+.div-span-flex {
+	display: flex;
+	justify-content: space-between;
+	flex-basis: 0;
+	width: inherit;
+	flex-basis: 0;
+}
+
+.div-span-flex:nth-child(2) {
+	margin: 5px 0;
+}
+
+.lastSection-inner {
+	display: flex;
+	flex-basis: 0;
+	padding: 5px 0;
+}
+
+.lastSection-inner a {
+	border: 1px solid #000;
+	box-sizing: border-box;
+	background-color: #666;
+	width: 100%;
+	padding: 3px;
+}
+
+.lastSection-inner a:first-child {
+	margin-right: 5px
+}
+
+.lastSection-inner span {
+	display: inline-block;
+	width: inherit;
+	height: inherit;
+	color: #fff;
+	text-align: center;
+}
+
+.sidebar-btn span {
+	display: inline-block;
+	border: 1px solid #000;
+	box-sizing: border-box;
+	background-color: #666;
+	width: 100%;
+	padding: 3px;
+	text-align: center;
+	color: #fff;
+	margin: 3px 0;
+	height: 35px;
+	line-height: 25px;
+}
+
+.sidebar-btn span:hover {
+	background-color: blue;
+	cursor: pointer;
+}
+/* <table class="sidebar-category-table"> */
+.sidebar-category-table {
+	width: 100%;
+	box-sizing: border-box;
+	border-top: 4px solid #000;
+	border-bottom: 4px solid #000;
+	
+	margin: 10px 0;
+}
+
+#category, #board {
+	width: 100%;
+}
+
+#category>td, #board>td {
+	vertical-align: middle;
+	height: 30px;
+}
+
+#category {
+	border-top: 2px solid #b9b9b9;
+	/* border-bottom: 2px solid #b9b9b9; */
+}
+
+#board {
+
+}

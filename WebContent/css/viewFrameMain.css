@@ -1,0 +1,41 @@
+@charset "utf-8";
+
+body {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+/* 	background-image: url('../img/background.png');
+	background-repeat: repeat; */
+}
+
+a {
+	text-decoration: none;
+	color: #000;
+}
+
+body .inner {
+	margin: 0 auto;
+	width: 1280px;
+	height: inherit;
+	min-height: 100%;
+	position: relative;
+	padding-bottom: 100px; /* footer height */
+}
+
+.main {
+	display: flex;
+	height: inherit;
+	margin: 30px 0px;
+}
+
+.main .sidebar {
+	min-width:250px;
+	width: 250px;
+	height: inherit;
+	display: inline-block;
+}
+
+.main .content {
+	width: 100%;
+	height: inherit;
+}

@@ -1,0 +1,25 @@
+@charset "utf-8";
+
+header {
+	height: 300px;
+	width: inherit;
+	margin: 10px 0;
+}
+
+header img {
+	height: inherit;
+	width: 100%;
+	object-fit: fill;
+}
+
+nav {
+	width: 100%;
+	position: relative;
+}
+
+nav>div {
+	width: auto;
+	position: absolute;
+	right: 0;
+
+}

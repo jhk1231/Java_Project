@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Context>
+
+	<Resource name="jdbc/mysqldb" auth="Container"
+		type="javax.sql.DataSource" maxTotal="100" maxIdle="30"
+		maxWaitMillis="10000" username="MZC3" password="`123"
+		driverClassName="com.mysql.cj.jdbc.Driver"		
+		url="jdbc:mysql://10.3.14.55:3306/cafedb" />
+
+</Context>
